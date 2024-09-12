@@ -2,6 +2,7 @@ const WebSocket = require("ws");
 
 // 创建一个 WebSocket 服务器，监听 8080 端口
 const wss = new WebSocket.Server({ port: 3000 });
+console.log('123')
 
 console.log("WebSocket server started on ws://localhost:3000");
 
